@@ -6,4 +6,6 @@ int main(int argc, char** argv){
     // This makes a_pointer store the location of a.
     int* a_pointer = &a;
     printf("The value of a_pointer is %p\n", a_pointer);
+    printf("The value of the variable is %d\n" , *a_pointer);
+    
 }
